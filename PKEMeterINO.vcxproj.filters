@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Buzzer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="PKEMeter.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="PKEMeterInterface.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="StateContext.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="PKEMeterState_Off.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="PKEMeterState_LowEnergyOperativeMode.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="PKEMeterState_HighEnergyOperativeMode.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="PKEMeterState_LowEnergyStage2.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="PKEMeterState_LowEnergyStage3.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="PKEMeterState_HighEnergyStage3.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="PKEMeterState_HighEnergyStage2.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="PKEMeterInput.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Buzzer.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="GLoop.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="PKEMeter.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="PKEMeterInterface.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="__vm\.PKEMeterINO.vsarduino.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="StateContext.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="PKEMeterState_Off.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="PKEMeterState_LowEnergyOperativeMode.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="PKEMeterState_HighEnergyOperativeMode.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="PKEMeterState_LowEnergyStage3.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="PKEMeterState_LowEnergyStage2.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="PKEMeterState_HighEnergyStage3.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="PKEMeterState_HighEnergyStage2.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="PKEMeterInput.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PKEMeterINO.ino" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="header">
+      <UniqueIdentifier>{b249a51d-fdf1-457c-af16-29f1ef2f8193}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{7c895901-cab0-46fc-a0d6-8ab04fb36010}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
