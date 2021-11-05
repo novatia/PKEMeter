@@ -1,13 +1,9 @@
 #pragma once
 #include "GLoop.h"
+#include "PKEMeterInput.h"
+#include "PKEMeterSelector.h"
 
 namespace PKEMeter {
-	enum class PKEMeterSelector {
-		Off,
-		LowEnergy,
-		HighEnergy
-	};
-
 
 	class PKEMeterInterface : public ArduinoApplicationEngine::GLoop
 	{
@@ -37,8 +33,6 @@ namespace PKEMeter {
 
 				The buttons are programmed with a 1.5 second delay on release,
 				this gives you time to press another button without the wings instantly returning to Stage1.
-
-
 			*/
 
 	private:
@@ -59,6 +53,6 @@ namespace PKEMeter {
 
 		bool AIsPressed();
 		bool BIsPressed();
-		PKEMeterSelector GetSelectorState();
+		PKEMeterInput* GetUserInput();
 	};
 }

@@ -88,7 +88,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>$(ProjectDir)..\PKEMeterINO;$(ProjectDir)..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino;$(ProjectDir)..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\variants\eightanaloginputs;$(ProjectDir)..\..\..\DOCUME~1\Arduino\PKEMET~1;$(ProjectDir)..\..\..\..\..\Program Files (x86)\Arduino\hardware\tools\avr\\lib\gcc\avr\7.3.0\include;$(ProjectDir)..\..\..\..\..\Program Files (x86)\Arduino\hardware\tools\avr\avr\include;$(ProjectDir)..\..\..\..\..\Program Files (x86)\Arduino\hardware\tools\avr\\lib\gcc\avr\7.3.0\include;$(ProjectDir)..\..\..\..\..\Program Files (x86)\Arduino\hardware\tools\avr\avr\include-fixed;$(ProjectDir)..\..\..\..\..\Program Files (x86)\Arduino\hardware\tools\avr\avr\include\avr;$(ProjectDir)..\..\..\..\..\Program Files (x86)\Arduino\hardware\tools\avr\lib\gcc\avr\4.9.2\include;$(ProjectDir)..\..\..\..\..\Program Files (x86)\Arduino\hardware\tools\avr\lib\gcc\avr\4.9.2\include;$(ProjectDir)..\..\..\..\..\Program Files (x86)\Arduino\hardware\tools\avr\lib\gcc\avr\4.9.3\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\PKEMeterINO;C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino;C:\Program Files (x86)\Arduino\hardware\arduino\avr\variants\eightanaloginputs;C:\Program Files (x86)\Arduino\hardware\tools\avr\\lib\gcc\avr\7.3.0\include;C:\Program Files (x86)\Arduino\hardware\tools\avr\avr\include;C:\Program Files (x86)\Arduino\hardware\tools\avr\\lib\gcc\avr\7.3.0\include;C:\Program Files (x86)\Arduino\hardware\tools\avr\avr\include-fixed;C:\Program Files (x86)\Arduino\hardware\tools\avr\avr\include\avr;C:\Program Files (x86)\Arduino\hardware\tools\avr\lib\gcc\avr\4.9.2\include;C:\Program Files (x86)\Arduino\hardware\tools\avr\lib\gcc\avr\4.9.2\include;C:\Program Files (x86)\Arduino\hardware\tools\avr\lib\gcc\avr\4.9.3\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>$(ProjectDir)__vm\.PKEMeterINO.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
       <IgnoreStandardIncludePath>true</IgnoreStandardIncludePath>
       <PreprocessorDefinitions>__AVR_atmega328p__;__AVR_ATmega328P__;__AVR_ATmega328p__;_VMDEBUG=1;F_CPU=16000000L;ARDUINO=108013;ARDUINO_AVR_NANO;ARDUINO_ARCH_AVR;__cplusplus=201103L;_VMICRO_INTELLISENSE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -108,9 +108,13 @@
   <ItemGroup>
     <ClInclude Include="Buzzer.h" />
     <ClInclude Include="GLoop.h" />
+    <ClInclude Include="InputLayout.h" />
     <ClInclude Include="PKEMeter.h" />
     <ClInclude Include="PKEMeterInput.h" />
     <ClInclude Include="PKEMeterInterface.h" />
+    <ClInclude Include="PKEMeterKeyboardLayout.h" />
+    <ClInclude Include="PKEMeterSelector.h" />
+    <ClInclude Include="PKEMeterStateContext.h" />
     <ClInclude Include="PKEMeterState_HighEnergyStage2.h" />
     <ClInclude Include="PKEMeterState_HighEnergyStage3.h" />
     <ClInclude Include="PKEMeterState_LowEnergyStage2.h" />
@@ -124,9 +128,13 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Buzzer.cpp" />
+    <ClCompile Include="InputLayout.cpp" />
     <ClCompile Include="PKEMeter.cpp" />
     <ClCompile Include="PKEMeterInput.cpp" />
     <ClCompile Include="PKEMeterInterface.cpp" />
+    <ClCompile Include="PKEMeterKeyboardLayout.cpp" />
+    <ClCompile Include="PKEMeterSelector.cpp" />
+    <ClCompile Include="PKEMeterStateContext.cpp" />
     <ClCompile Include="PKEMeterState_HighEnergyStage2.cpp" />
     <ClCompile Include="PKEMeterState_HighEnergyStage3.cpp" />
     <ClCompile Include="PKEMeterState_LowEnergyStage2.cpp" />

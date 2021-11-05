@@ -1,21 +1,21 @@
 #include "State.h"
 #include "StateContext.h"
 
-PKEMeter::State::State()
+ArduinoApplicationEngine::State::State(): m_Context(nullptr)
 {
 
 }
 
-PKEMeter::State::~State()
+ArduinoApplicationEngine::State::~State()
 {
 
 }
 
-void PKEMeter::State::HandleInput(PKEMeterInput)
+void ArduinoApplicationEngine::State::HandleInput(InputLayout*)
 {
 }
 
-void PKEMeter::State::SetContext(StateContext* context)
+void ArduinoApplicationEngine::State::SetContext(StateContext* context)
 {
 	this->m_Context = context;
 }

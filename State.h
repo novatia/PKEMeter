@@ -2,7 +2,7 @@
 #include "Gloop.h"
 #include "PKEMeterInput.h"
 
-namespace PKEMeter {
+namespace ArduinoApplicationEngine {
 	class StateContext;
 
 	class State:
@@ -13,12 +13,7 @@ namespace PKEMeter {
 		State();
 		virtual ~State();
 
-		void HandleInput(PKEMeterInput);
-		virtual void ButtonAPressed() = 0;
-		virtual void ButtonBPressed() = 0;
-		virtual void SwitchSelectorToLow() = 0;
-		virtual void SwitchSelectorToOff() = 0;
-		virtual void SwitchSelectorToHigh() = 0;
+		virtual void HandleInput(InputLayout*) = 0;
 
 		/*
 		* GLoop virtual interface

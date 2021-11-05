@@ -3,7 +3,7 @@
 #include "Buzzer.h"
 #include "PKEMeterInterface.h"
 #include "State.h"
-#include "StateContext.h"
+#include "PKEMeterStateContext.h"
 
 #define MAX_COMPONENTS 2
 
@@ -12,11 +12,8 @@ namespace PKEMeter {
 	{
 
 	private:
-		Buzzer m_Buzzer;
 		PKEMeterInterface m_PKEMeterInterface;
-		StateContext m_Context;
-
-		ArduinoApplicationEngine::GLoop* m_Components[MAX_COMPONENTS];
+		PKEMeterStateContext m_Context;
 
 	public:
 		PKEMeter();

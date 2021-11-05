@@ -1,23 +1,18 @@
 #pragma once
-namespace PKEMeter {
-	class State;
+#include "State.h"
+
+namespace ArduinoApplicationEngine {
 
 	class StateContext {
-	private:
+	protected:
 		State* m_State;
 
 	public:
 		StateContext();
 		virtual ~StateContext();
 
-		void TransitionTo(State*);
+		virtual void TransitionTo(State*);
 		State* GetState();
-
-		void PressButtonA();
-		void PressButtonB();
-		void SwitchSelectorToLow();
-		void SwitchSelectorToHigh();
-		void SwitchSelectorToOff();
 	};
 }
 

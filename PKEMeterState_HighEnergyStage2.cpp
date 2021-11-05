@@ -44,4 +44,39 @@ void PKEMeter::PKEMeterState_HighEnergyStage2::Setup()
 void PKEMeter::PKEMeterState_HighEnergyStage2::Update()
 {
 	//HIGH ENERGY STAGE 2 - UPDATE
+
+
+	//set buzzer to Low
+
+	//servo to position Stage 1
+
+	//show display to High  
+
+	//Register to stage 2
+
+}
+
+void PKEMeter::PKEMeterState_HighEnergyStage2::HandleInput(ArduinoApplicationEngine::InputLayout* InputLayout)
+{
+	PKEMeterInput* Input = reinterpret_cast<PKEMeterInput*>(InputLayout);
+
+	switch (Input->SelectorState)
+	{
+	case PKEMeterSelector::Off: {
+		this->SwitchSelectorToOff();
+		break;
+	}
+	case PKEMeterSelector::LowEnergy: {
+		this->SwitchSelectorToLow();
+		break;
+	}
+	default:
+		break;
+	}
+
+	if (Input->APressed)
+		this->ButtonAPressed();
+
+	if (Input->BPressed)
+		this->ButtonBPressed();
 }

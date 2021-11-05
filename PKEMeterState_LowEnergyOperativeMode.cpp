@@ -40,5 +40,36 @@ void PKEMeter::PKEMeterState_LowEnergyOperativeMode::Setup()
 void PKEMeter::PKEMeterState_LowEnergyOperativeMode::Update()
 {
 	//LOW ENERGY STAGE 1 UPDATE
+	//set buzzer to Off
 
+	//servo to position Off
+
+	//show display to Low  
+
+	//Register to stage 1
+}
+
+void PKEMeter::PKEMeterState_LowEnergyOperativeMode::HandleInput(ArduinoApplicationEngine::InputLayout* InputLayout)
+{
+	PKEMeterInput* Input = reinterpret_cast<PKEMeterInput*>(InputLayout);
+
+	switch (Input->SelectorState)
+	{
+	case PKEMeterSelector::Off: {
+		this->SwitchSelectorToOff();
+		break;
+	}
+	case PKEMeterSelector::HighEnergy: {
+		this->SwitchSelectorToHigh();
+		break;
+	}
+	default:
+		break;
+	}
+
+	if (Input->APressed)
+		this->ButtonAPressed();
+
+	if (Input->BPressed)
+		this->ButtonBPressed();
 }

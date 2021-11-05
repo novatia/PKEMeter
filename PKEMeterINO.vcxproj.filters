@@ -10,12 +10,6 @@
     <ClCompile Include="PKEMeterInterface.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="State.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="StateContext.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
     <ClCompile Include="PKEMeterState_Off.cpp">
       <Filter>src</Filter>
     </ClCompile>
@@ -37,13 +31,30 @@
     <ClCompile Include="PKEMeterState_HighEnergyStage2.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="PKEMeterInput.cpp" />
+    <ClCompile Include="PKEMeterInput.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="PKEMeterSelector.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="PKEMeterKeyboardLayout.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>ArduinoApplicationEngine\src</Filter>
+    </ClCompile>
+    <ClCompile Include="StateContext.cpp">
+      <Filter>ArduinoApplicationEngine\src</Filter>
+    </ClCompile>
+    <ClCompile Include="InputLayout.cpp">
+      <Filter>ArduinoApplicationEngine\src</Filter>
+    </ClCompile>
+    <ClCompile Include="PKEMeterStateContext.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Buzzer.h">
-      <Filter>header</Filter>
-    </ClInclude>
-    <ClInclude Include="GLoop.h">
       <Filter>header</Filter>
     </ClInclude>
     <ClInclude Include="PKEMeter.h">
@@ -53,12 +64,6 @@
       <Filter>header</Filter>
     </ClInclude>
     <ClInclude Include="__vm\.PKEMeterINO.vsarduino.h">
-      <Filter>header</Filter>
-    </ClInclude>
-    <ClInclude Include="State.h">
-      <Filter>header</Filter>
-    </ClInclude>
-    <ClInclude Include="StateContext.h">
       <Filter>header</Filter>
     </ClInclude>
     <ClInclude Include="PKEMeterState_Off.h">
@@ -82,7 +87,30 @@
     <ClInclude Include="PKEMeterState_HighEnergyStage2.h">
       <Filter>header</Filter>
     </ClInclude>
-    <ClInclude Include="PKEMeterInput.h" />
+    <ClInclude Include="PKEMeterInput.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="PKEMeterSelector.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="GLoop.h">
+      <Filter>ArduinoApplicationEngine\header</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>ArduinoApplicationEngine\header</Filter>
+    </ClInclude>
+    <ClInclude Include="StateContext.h">
+      <Filter>ArduinoApplicationEngine\header</Filter>
+    </ClInclude>
+    <ClInclude Include="InputLayout.h">
+      <Filter>ArduinoApplicationEngine\header</Filter>
+    </ClInclude>
+    <ClInclude Include="PKEMeterKeyboardLayout.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="PKEMeterStateContext.h">
+      <Filter>header</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="PKEMeterINO.ino" />
@@ -93,6 +121,15 @@
     </Filter>
     <Filter Include="src">
       <UniqueIdentifier>{7c895901-cab0-46fc-a0d6-8ab04fb36010}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ArduinoApplicationEngine">
+      <UniqueIdentifier>{0bc44cdd-7876-4e12-94ae-7f11da9a68a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ArduinoApplicationEngine\header">
+      <UniqueIdentifier>{5bd67e1e-ab66-451d-b619-e80f8ec72a3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ArduinoApplicationEngine\src">
+      <UniqueIdentifier>{f56095ce-5718-4ce8-927d-98a2867fc7d8}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
