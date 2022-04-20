@@ -111,6 +111,7 @@
     <ClInclude Include="PKEMeterStateContext.h">
       <Filter>header</Filter>
     </ClInclude>
+    <ClInclude Include="__vm\.PKEMeter.vsarduino.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="PKEMeterINO.ino" />

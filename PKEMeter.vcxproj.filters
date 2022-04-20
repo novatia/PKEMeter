@@ -15,30 +15,117 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="PKEMeterINO.ino" />
+    <None Include="PKEMeter.ino" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Buzzer.h">
+    <ClInclude Include="__vm\.PKEMeter.vsarduino.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="PKEMeter.h">
+    <ClInclude Include="Buzzer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="GLoop.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="InputLayout.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PKEMeter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PKEMeterInput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="PKEMeterInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PKEMeterKeyboardLayout.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PKEMeterSelector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PKEMeterStateContext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PKEMeterState_HighEnergyOperativeMode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PKEMeterState_HighEnergyStage2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PKEMeterState_HighEnergyStage3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PKEMeterState_LowEnergyOperativeMode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PKEMeterState_LowEnergyStage2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PKEMeterState_LowEnergyStage3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PKEMeterState_Off.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StateContext.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="PKEMeter.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Buzzer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="InputLayout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PKEMeter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PKEMeterInput.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="PKEMeterInterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PKEMeterKeyboardLayout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PKEMeterSelector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PKEMeterStateContext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PKEMeterState_HighEnergyOperativeMode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PKEMeterState_HighEnergyStage2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PKEMeterState_HighEnergyStage3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PKEMeterState_LowEnergyOperativeMode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PKEMeterState_LowEnergyStage2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PKEMeterState_LowEnergyStage3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PKEMeterState_Off.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StateContext.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

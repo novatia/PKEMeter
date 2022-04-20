@@ -1,4 +1,8 @@
 #pragma once
+/**
+ * Define here the input layout as abstract methods, implemented by the states in order to change state.
+ * STATE PATTERN
+ */
 class PKEMeterKeyboardLayout
 {
 public:

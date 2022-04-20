@@ -1,6 +1,7 @@
 #pragma once
 #include "StateContext.h"
 #include "Buzzer.h"
+#include <Servo.h>
 
 namespace PKEMeter {
     class PKEMeterStateContext :
